@@ -1,0 +1,67 @@
+html,body{
+    margin:0px;
+    padding: 0px;
+    background-color:#FFFFFF ;
+}
+.container{
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0c12599d;
+}
+.todo-item{
+    width: 98%;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:5px;
+    background-color: #4f53d3;
+    border:1px solid #000;
+    border-radius: 8px;
+}
+#todos{
+    margin:10px;
+    border:1px solid #000;
+    width:98%;
+    background-color: #110e54;
+    border:1px solid #000;
+    border-radius: 8px;
+}
+#todo-input{
+    width:65%;
+    height: 30px;
+    border:1px solid #000;
+    border-radius: 5px;
+    background-color: #3f428934;
+    color: black;
+    font-size: medium;
+    margin:auto;
+    padding:auto;
+}
+.todo-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 10px;
+}
+#add-todo{
+    width: 20%;
+    height: 30px;
+    border:1px solid #000;
+    border-radius: 5px;
+    background-color: #030652;
+    color: #fff;
+    cursor: pointer;
+}
+.content{
+     border: 1px solid #000;
+    border-radius: 8px;
+    background-color: #2b484e;
+    width:55%;
+
+}
